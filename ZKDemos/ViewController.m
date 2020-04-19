@@ -9,6 +9,7 @@
 #import "ViewController.h"
 #import "HelloAvPlayerController.h"
 #import "ZKIJKPlayerController.h"
+#import "HelloGpuImageController.h"
 
 @interface ViewController ()<UITableViewDelegate, UITableViewDataSource>
 
@@ -66,6 +67,11 @@
     
     if (indexPath.row == 1) {
         ZKIJKPlayerController *vc = [[ZKIJKPlayerController alloc] init];
+        [self.navigationController pushViewController:vc animated:YES];
+    }
+    
+    if (indexPath.row == 2) {
+        HelloGpuImageController *vc = [[HelloGpuImageController alloc] init];
         [self.navigationController pushViewController:vc animated:YES];
     }
 }
