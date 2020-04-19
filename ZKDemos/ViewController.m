@@ -8,6 +8,7 @@
 
 #import "ViewController.h"
 #import "HelloAvPlayerController.h"
+#import "ZKIJKPlayerController.h"
 
 @interface ViewController ()<UITableViewDelegate, UITableViewDataSource>
 
@@ -57,8 +58,14 @@
 }
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
+   
     if (indexPath.row == 0) {
         HelloAvPlayerController *vc = [[HelloAvPlayerController alloc] init];
+        [self.navigationController pushViewController:vc animated:YES];
+    }
+    
+    if (indexPath.row == 1) {
+        ZKIJKPlayerController *vc = [[ZKIJKPlayerController alloc] init];
         [self.navigationController pushViewController:vc animated:YES];
     }
 }

@@ -42,6 +42,7 @@
 		58A031E7244C72C60084DBA2 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 58A031E6244C72C10084DBA2 /* libz.tbd */; };
 		58A031E9244C72D50084DBA2 /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 58A031E8244C72CF0084DBA2 /* libc++.tbd */; };
 		58A031EB244C72E10084DBA2 /* libbz2.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 58A031EA244C72DB0084DBA2 /* libbz2.tbd */; };
+		58A031ED244C731D0084DBA2 /* IJKMediaFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 58A031EC244C731C0084DBA2 /* IJKMediaFramework.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -124,6 +125,7 @@
 		58A031E6244C72C10084DBA2 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
 		58A031E8244C72CF0084DBA2 /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
 		58A031EA244C72DB0084DBA2 /* libbz2.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libbz2.tbd; path = usr/lib/libbz2.tbd; sourceTree = SDKROOT; };
+		58A031EC244C731C0084DBA2 /* IJKMediaFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = IJKMediaFramework.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -144,6 +146,7 @@
 				58A031DD244C729D0084DBA2 /* MediaPlayer.framework in Frameworks */,
 				58A031DB244C72960084DBA2 /* CoreVideo.framework in Frameworks */,
 				58A031E3244C72B40084DBA2 /* QuartzCore.framework in Frameworks */,
+				58A031ED244C731D0084DBA2 /* IJKMediaFramework.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -238,6 +241,7 @@
 		58A03185244C663C0084DBA2 /* third */ = {
 			isa = PBXGroup;
 			children = (
+				58A031EC244C731C0084DBA2 /* IJKMediaFramework.framework */,
 				58A03186244C663C0084DBA2 /* Masonry */,
 			);
 			path = third;
@@ -613,6 +617,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 452CA64VVD;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/ZKDemos/third",
+				);
 				INFOPLIST_FILE = ZKDemos/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -630,6 +638,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 452CA64VVD;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/ZKDemos/third",
+				);
 				INFOPLIST_FILE = ZKDemos/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",

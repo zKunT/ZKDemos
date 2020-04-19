@@ -21,7 +21,8 @@
     [super viewDidLoad];
     
     self.view.backgroundColor = [UIColor whiteColor];
-           
+    
+    self.address = @"http://111.202.43.95/hdl3a.douyucdn.cn/live/4332rq0srxkvig7U_550.flv?wsAuth=d03ed4b6e8c39fdb755ec0b9d493a5ff&token=app-ios-361019-4332-40160242e1941182923c72436cf37d5cd2811c92d1ef7657&logo=0&expire=0&did=cce607aca6514115520cd33200001521&ver=6.091&pt=1&st=0&origin=ws&mix=0&isp=";
     // 拉流地址
     NSURL *url = [NSURL URLWithString:self.address];
            
