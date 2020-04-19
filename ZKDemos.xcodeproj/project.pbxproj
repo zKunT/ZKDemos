@@ -28,6 +28,20 @@
 		58A031A8244C663C0084DBA2 /* MASViewConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 58A0319E244C663C0084DBA2 /* MASViewConstraint.m */; };
 		58A031A9244C663C0084DBA2 /* MASViewAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = 58A0319F244C663C0084DBA2 /* MASViewAttribute.m */; };
 		58A031AB244C66920084DBA2 /* HelloAvPlayerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 58A031AA244C66920084DBA2 /* HelloAvPlayerController.m */; };
+		58A031D0244C723E0084DBA2 /* ZKIJKPlayerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 58A031CE244C723E0084DBA2 /* ZKIJKPlayerController.m */; };
+		58A031D3244C72750084DBA2 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 58A031D2244C72750084DBA2 /* AudioToolbox.framework */; };
+		58A031D5244C727C0084DBA2 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 58A031D4244C727C0084DBA2 /* AVFoundation.framework */; };
+		58A031D7244C72840084DBA2 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 58A031D6244C72840084DBA2 /* CoreGraphics.framework */; };
+		58A031D9244C728F0084DBA2 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 58A031D8244C728F0084DBA2 /* CoreMedia.framework */; };
+		58A031DB244C72960084DBA2 /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 58A031DA244C72950084DBA2 /* CoreVideo.framework */; };
+		58A031DD244C729D0084DBA2 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 58A031DC244C729D0084DBA2 /* MediaPlayer.framework */; };
+		58A031DF244C72A50084DBA2 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 58A031DE244C72A50084DBA2 /* MobileCoreServices.framework */; };
+		58A031E1244C72AC0084DBA2 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 58A031E0244C72AC0084DBA2 /* OpenGLES.framework */; };
+		58A031E3244C72B40084DBA2 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 58A031E2244C72B40084DBA2 /* QuartzCore.framework */; };
+		58A031E5244C72BB0084DBA2 /* VideoToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 58A031E4244C72BB0084DBA2 /* VideoToolbox.framework */; };
+		58A031E7244C72C60084DBA2 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 58A031E6244C72C10084DBA2 /* libz.tbd */; };
+		58A031E9244C72D50084DBA2 /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 58A031E8244C72CF0084DBA2 /* libc++.tbd */; };
+		58A031EB244C72E10084DBA2 /* libbz2.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 58A031EA244C72DB0084DBA2 /* libbz2.tbd */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -95,6 +109,21 @@
 		58A0319E244C663C0084DBA2 /* MASViewConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASViewConstraint.m; sourceTree = "<group>"; };
 		58A0319F244C663C0084DBA2 /* MASViewAttribute.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASViewAttribute.m; sourceTree = "<group>"; };
 		58A031AA244C66920084DBA2 /* HelloAvPlayerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HelloAvPlayerController.m; sourceTree = "<group>"; };
+		58A031CE244C723E0084DBA2 /* ZKIJKPlayerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZKIJKPlayerController.m; sourceTree = "<group>"; };
+		58A031CF244C723E0084DBA2 /* ZKIJKPlayerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZKIJKPlayerController.h; sourceTree = "<group>"; };
+		58A031D2244C72750084DBA2 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		58A031D4244C727C0084DBA2 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		58A031D6244C72840084DBA2 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		58A031D8244C728F0084DBA2 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		58A031DA244C72950084DBA2 /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
+		58A031DC244C729D0084DBA2 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		58A031DE244C72A50084DBA2 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		58A031E0244C72AC0084DBA2 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		58A031E2244C72B40084DBA2 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		58A031E4244C72BB0084DBA2 /* VideoToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = VideoToolbox.framework; path = System/Library/Frameworks/VideoToolbox.framework; sourceTree = SDKROOT; };
+		58A031E6244C72C10084DBA2 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		58A031E8244C72CF0084DBA2 /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
+		58A031EA244C72DB0084DBA2 /* libbz2.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libbz2.tbd; path = usr/lib/libbz2.tbd; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +131,19 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				58A031D9244C728F0084DBA2 /* CoreMedia.framework in Frameworks */,
+				58A031EB244C72E10084DBA2 /* libbz2.tbd in Frameworks */,
+				58A031E7244C72C60084DBA2 /* libz.tbd in Frameworks */,
+				58A031DF244C72A50084DBA2 /* MobileCoreServices.framework in Frameworks */,
+				58A031E5244C72BB0084DBA2 /* VideoToolbox.framework in Frameworks */,
+				58A031D7244C72840084DBA2 /* CoreGraphics.framework in Frameworks */,
+				58A031E1244C72AC0084DBA2 /* OpenGLES.framework in Frameworks */,
+				58A031E9244C72D50084DBA2 /* libc++.tbd in Frameworks */,
+				58A031D5244C727C0084DBA2 /* AVFoundation.framework in Frameworks */,
+				58A031D3244C72750084DBA2 /* AudioToolbox.framework in Frameworks */,
+				58A031DD244C729D0084DBA2 /* MediaPlayer.framework in Frameworks */,
+				58A031DB244C72960084DBA2 /* CoreVideo.framework in Frameworks */,
+				58A031E3244C72B40084DBA2 /* QuartzCore.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -129,6 +171,7 @@
 				5879523E244C5E24008E0063 /* ZKDemosTests */,
 				58795249244C5E24008E0063 /* ZKDemosUITests */,
 				58795221244C5E24008E0063 /* Products */,
+				58A031D1244C72750084DBA2 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -152,6 +195,7 @@
 				58A03175244C601C0084DBA2 /* ViewController.h */,
 				58A03177244C601C0084DBA2 /* ViewController.m */,
 				58A0317C244C61E40084DBA2 /* onLineVideo */,
+				58A031CD244C723E0084DBA2 /* liveVideo */,
 				58A03185244C663C0084DBA2 /* third */,
 				5879522F244C5E24008E0063 /* Assets.xcassets */,
 				58795231244C5E24008E0063 /* LaunchScreen.storyboard */,
@@ -229,6 +273,35 @@
 				58A0319F244C663C0084DBA2 /* MASViewAttribute.m */,
 			);
 			path = Masonry;
+			sourceTree = "<group>";
+		};
+		58A031CD244C723E0084DBA2 /* liveVideo */ = {
+			isa = PBXGroup;
+			children = (
+				58A031CE244C723E0084DBA2 /* ZKIJKPlayerController.m */,
+				58A031CF244C723E0084DBA2 /* ZKIJKPlayerController.h */,
+			);
+			path = liveVideo;
+			sourceTree = "<group>";
+		};
+		58A031D1244C72750084DBA2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				58A031EA244C72DB0084DBA2 /* libbz2.tbd */,
+				58A031E8244C72CF0084DBA2 /* libc++.tbd */,
+				58A031E6244C72C10084DBA2 /* libz.tbd */,
+				58A031E4244C72BB0084DBA2 /* VideoToolbox.framework */,
+				58A031E2244C72B40084DBA2 /* QuartzCore.framework */,
+				58A031E0244C72AC0084DBA2 /* OpenGLES.framework */,
+				58A031DE244C72A50084DBA2 /* MobileCoreServices.framework */,
+				58A031DC244C729D0084DBA2 /* MediaPlayer.framework */,
+				58A031DA244C72950084DBA2 /* CoreVideo.framework */,
+				58A031D8244C728F0084DBA2 /* CoreMedia.framework */,
+				58A031D6244C72840084DBA2 /* CoreGraphics.framework */,
+				58A031D4244C727C0084DBA2 /* AVFoundation.framework */,
+				58A031D2244C72750084DBA2 /* AudioToolbox.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -363,6 +436,7 @@
 			files = (
 				58A031AB244C66920084DBA2 /* HelloAvPlayerController.m in Sources */,
 				58A031A8244C663C0084DBA2 /* MASViewConstraint.m in Sources */,
+				58A031D0244C723E0084DBA2 /* ZKIJKPlayerController.m in Sources */,
 				58A03179244C601C0084DBA2 /* AppDelegate.m in Sources */,
 				58A031A3244C663C0084DBA2 /* MASConstraintMaker.m in Sources */,
 				58795236244C5E24008E0063 /* main.m in Sources */,
@@ -538,6 +612,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 452CA64VVD;
 				INFOPLIST_FILE = ZKDemos/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -554,6 +629,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 452CA64VVD;
 				INFOPLIST_FILE = ZKDemos/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
