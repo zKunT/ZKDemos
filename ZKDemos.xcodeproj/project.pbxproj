@@ -15,6 +15,9 @@
 		58A03179244C601C0084DBA2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 58A03174244C601C0084DBA2 /* AppDelegate.m */; };
 		58A0317A244C601C0084DBA2 /* BaseNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 58A03176244C601C0084DBA2 /* BaseNavigationController.m */; };
 		58A0317B244C601C0084DBA2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 58A03177244C601C0084DBA2 /* ViewController.m */; };
+		58A03180244C61E40084DBA2 /* HelloAvPlayerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 58A0317D244C61E40084DBA2 /* HelloAvPlayerController.m */; };
+		58A03181244C61E40084DBA2 /* HelloAvPlayerController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 58A0317F244C61E40084DBA2 /* HelloAvPlayerController.xib */; };
+		58A03184244C62730084DBA2 /* ZKAvPlayerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 58A03182244C62730084DBA2 /* ZKAvPlayerView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,6 +55,11 @@
 		58A03176244C601C0084DBA2 /* BaseNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseNavigationController.m; sourceTree = "<group>"; };
 		58A03177244C601C0084DBA2 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		58A03178244C601C0084DBA2 /* BaseNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseNavigationController.h; sourceTree = "<group>"; };
+		58A0317D244C61E40084DBA2 /* HelloAvPlayerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HelloAvPlayerController.m; sourceTree = "<group>"; };
+		58A0317E244C61E40084DBA2 /* HelloAvPlayerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HelloAvPlayerController.h; sourceTree = "<group>"; };
+		58A0317F244C61E40084DBA2 /* HelloAvPlayerController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HelloAvPlayerController.xib; sourceTree = "<group>"; };
+		58A03182244C62730084DBA2 /* ZKAvPlayerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZKAvPlayerView.m; sourceTree = "<group>"; };
+		58A03183244C62730084DBA2 /* ZKAvPlayerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZKAvPlayerView.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,6 +116,7 @@
 				58A03176244C601C0084DBA2 /* BaseNavigationController.m */,
 				58A03175244C601C0084DBA2 /* ViewController.h */,
 				58A03177244C601C0084DBA2 /* ViewController.m */,
+				58A0317C244C61E40084DBA2 /* onLineVideo */,
 				5879522F244C5E24008E0063 /* Assets.xcassets */,
 				58795231244C5E24008E0063 /* LaunchScreen.storyboard */,
 				58795234244C5E24008E0063 /* Info.plist */,
@@ -132,6 +141,18 @@
 				5879524C244C5E24008E0063 /* Info.plist */,
 			);
 			path = ZKDemosUITests;
+			sourceTree = "<group>";
+		};
+		58A0317C244C61E40084DBA2 /* onLineVideo */ = {
+			isa = PBXGroup;
+			children = (
+				58A03183244C62730084DBA2 /* ZKAvPlayerView.h */,
+				58A03182244C62730084DBA2 /* ZKAvPlayerView.m */,
+				58A0317D244C61E40084DBA2 /* HelloAvPlayerController.m */,
+				58A0317E244C61E40084DBA2 /* HelloAvPlayerController.h */,
+				58A0317F244C61E40084DBA2 /* HelloAvPlayerController.xib */,
+			);
+			path = onLineVideo;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -237,6 +258,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				58A03181244C61E40084DBA2 /* HelloAvPlayerController.xib in Resources */,
 				58795233244C5E24008E0063 /* LaunchScreen.storyboard in Resources */,
 				58795230244C5E24008E0063 /* Assets.xcassets in Resources */,
 			);
@@ -266,7 +288,9 @@
 				58A03179244C601C0084DBA2 /* AppDelegate.m in Sources */,
 				58795236244C5E24008E0063 /* main.m in Sources */,
 				58A0317B244C601C0084DBA2 /* ViewController.m in Sources */,
+				58A03180244C61E40084DBA2 /* HelloAvPlayerController.m in Sources */,
 				58A0317A244C601C0084DBA2 /* BaseNavigationController.m in Sources */,
+				58A03184244C62730084DBA2 /* ZKAvPlayerView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

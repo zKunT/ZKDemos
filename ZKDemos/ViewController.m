@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "HelloAvPlayerController.h"
 
 @interface ViewController ()<UITableViewDelegate, UITableViewDataSource>
 
@@ -55,6 +56,14 @@
     return cell;
 }
 
+- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
+    if (indexPath.row == 0) {
+        HelloAvPlayerController *vc = [[HelloAvPlayerController alloc] init];
+        [self.navigationController pushViewController:vc animated:YES];
+    }
+}
+
+#pragma mark - 懒加载
 - (NSMutableArray *)cellTitles {
     if (!_cellTitles) {
         _cellTitles = [NSMutableArray array];
